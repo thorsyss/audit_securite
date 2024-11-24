@@ -25,20 +25,20 @@ L'objectif est de faciliter les tests de pénétration, de découvrir des vulné
 Voici la structure du projet et son explication :
 
 audit_securite/
-├── README.md
-├── requirements.txt
-├── scan_audit.py
-├── modules/
-│   ├── network_scanner.py
-│   ├── vulnerability_checker.py
-│   └── report_generator.py
-├── reports/
-│   ├── report_YYYYMMDD.html
-│   └── report_YYYYMMDD.pdf
-├── tests/
-│   ├── test_network_scanner.py
-│   ├── test_vulnerability_checker.py
-│   └── test_report_generator.py
+|-- README.md
+|-- requirements.txt
+|-- scan_audit.py
+|--- modules/
+|   |-- network_scanner.py
+|   |-- vulnerability_checker.py
+|   |-- report_generator.py
+|-- reports/
+|   |-- report_YYYYMMDD.html
+|   |-- report_YYYYMMDD.pdf
+|-- tests/
+|   |-- test_network_scanner.py
+|   |-- test_vulnerability_checker.py
+|   |-- test_report_generator.py
 
 
 

@@ -24,7 +24,21 @@ L'objectif est de faciliter les tests de pénétration, de découvrir des vulné
 
 Voici la structure du projet et son explication :
 
-audit_securite/ │ ├── modules/ # Contient les différents modules du projet │ ├── network_scanner.py # Scanner pour détecter les ports ouverts │ ├── vulnerability_checker.py # Vérification des vulnérabilités des services │ └── report_generator.py # Générateur de rapports HTML │ ├── reports/ # Dossier pour stocker les rapports générés │ ├── tests/ # Contient les tests unitaires pour chaque module │ ├── test_network_scanner.py # Test du scanner réseau │ ├── test_vulnerability_checker.py # Test de la vérification des vulnérabilités │ └── test_report_generator.py # Test du générateur de rapport │ ├── requirements.txt # Liste des dépendances Python ├── scan_audit.py # Script principal pour exécuter l'audit └── README.md # Ce fichier
+audit_securite/
+├── README.md
+├── requirements.txt
+├── scan_audit.py
+├── modules/
+│   ├── network_scanner.py
+│   ├── vulnerability_checker.py
+│   └── report_generator.py
+├── reports/
+│   ├── report_YYYYMMDD.html
+│   └── report_YYYYMMDD.pdf
+├── tests/
+│   ├── test_network_scanner.py
+│   ├── test_vulnerability_checker.py
+│   └── test_report_generator.py
 
 
 
